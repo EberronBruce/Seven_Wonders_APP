@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A39A91C1D2DCB16001352CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39A91B1D2DCB16001352CF /* AppDelegate.swift */; };
+		7A39A91E1D2DCB16001352CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39A91D1D2DCB16001352CF /* ViewController.swift */; };
+		7A39A9211D2DCB16001352CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A39A91F1D2DCB16001352CF /* Main.storyboard */; };
+		7A39A9231D2DCB16001352CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A39A9221D2DCB16001352CF /* Assets.xcassets */; };
+		7A39A9261D2DCB16001352CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A39A9241D2DCB16001352CF /* LaunchScreen.storyboard */; };
+		7A39A9311D2DCB17001352CF /* Seven_WondersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39A9301D2DCB17001352CF /* Seven_WondersTests.swift */; };
+		7A39A93C1D2DCB17001352CF /* Seven_WondersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39A93B1D2DCB17001352CF /* Seven_WondersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A39A92D1D2DCB17001352CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A39A9101D2DCB16001352CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A39A9171D2DCB16001352CF;
+			remoteInfo = "Seven Wonders";
+		};
+		7A39A9381D2DCB17001352CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A39A9101D2DCB16001352CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A39A9171D2DCB16001352CF;
+			remoteInfo = "Seven Wonders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A39A9181D2DCB16001352CF /* Seven Wonders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seven Wonders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A39A91B1D2DCB16001352CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A39A91D1D2DCB16001352CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A39A9201D2DCB16001352CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A39A9221D2DCB16001352CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A39A9251D2DCB16001352CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A39A9271D2DCB16001352CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A39A92C1D2DCB17001352CF /* Seven WondersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seven WondersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A39A9301D2DCB17001352CF /* Seven_WondersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven_WondersTests.swift; sourceTree = "<group>"; };
+		7A39A9321D2DCB17001352CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A39A9371D2DCB17001352CF /* Seven WondersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seven WondersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A39A93B1D2DCB17001352CF /* Seven_WondersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven_WondersUITests.swift; sourceTree = "<group>"; };
+		7A39A93D1D2DCB17001352CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A39A9151D2DCB16001352CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39A9291D2DCB17001352CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39A9341D2DCB17001352CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A39A90F1D2DCB15001352CF = {
+			isa = PBXGroup;
+			children = (
+				7A39A91A1D2DCB16001352CF /* Seven Wonders */,
+				7A39A92F1D2DCB17001352CF /* Seven WondersTests */,
+				7A39A93A1D2DCB17001352CF /* Seven WondersUITests */,
+				7A39A9191D2DCB16001352CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A39A9191D2DCB16001352CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A39A9181D2DCB16001352CF /* Seven Wonders.app */,
+				7A39A92C1D2DCB17001352CF /* Seven WondersTests.xctest */,
+				7A39A9371D2DCB17001352CF /* Seven WondersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A39A91A1D2DCB16001352CF /* Seven Wonders */ = {
+			isa = PBXGroup;
+			children = (
+				7A39A91B1D2DCB16001352CF /* AppDelegate.swift */,
+				7A39A91D1D2DCB16001352CF /* ViewController.swift */,
+				7A39A91F1D2DCB16001352CF /* Main.storyboard */,
+				7A39A9221D2DCB16001352CF /* Assets.xcassets */,
+				7A39A9241D2DCB16001352CF /* LaunchScreen.storyboard */,
+				7A39A9271D2DCB16001352CF /* Info.plist */,
+			);
+			path = "Seven Wonders";
+			sourceTree = "<group>";
+		};
+		7A39A92F1D2DCB17001352CF /* Seven WondersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A39A9301D2DCB17001352CF /* Seven_WondersTests.swift */,
+				7A39A9321D2DCB17001352CF /* Info.plist */,
+			);
+			path = "Seven WondersTests";
+			sourceTree = "<group>";
+		};
+		7A39A93A1D2DCB17001352CF /* Seven WondersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A39A93B1D2DCB17001352CF /* Seven_WondersUITests.swift */,
+				7A39A93D1D2DCB17001352CF /* Info.plist */,
+			);
+			path = "Seven WondersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A39A9171D2DCB16001352CF /* Seven Wonders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A39A9401D2DCB17001352CF /* Build configuration list for PBXNativeTarget "Seven Wonders" */;
+			buildPhases = (
+				7A39A9141D2DCB16001352CF /* Sources */,
+				7A39A9151D2DCB16001352CF /* Frameworks */,
+				7A39A9161D2DCB16001352CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seven Wonders";
+			productName = "Seven Wonders";
+			productReference = 7A39A9181D2DCB16001352CF /* Seven Wonders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A39A92B1D2DCB17001352CF /* Seven WondersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A39A9431D2DCB17001352CF /* Build configuration list for PBXNativeTarget "Seven WondersTests" */;
+			buildPhases = (
+				7A39A9281D2DCB17001352CF /* Sources */,
+				7A39A9291D2DCB17001352CF /* Frameworks */,
+				7A39A92A1D2DCB17001352CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A39A92E1D2DCB17001352CF /* PBXTargetDependency */,
+			);
+			name = "Seven WondersTests";
+			productName = "Seven WondersTests";
+			productReference = 7A39A92C1D2DCB17001352CF /* Seven WondersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A39A9361D2DCB17001352CF /* Seven WondersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A39A9461D2DCB17001352CF /* Build configuration list for PBXNativeTarget "Seven WondersUITests" */;
+			buildPhases = (
+				7A39A9331D2DCB17001352CF /* Sources */,
+				7A39A9341D2DCB17001352CF /* Frameworks */,
+				7A39A9351D2DCB17001352CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A39A9391D2DCB17001352CF /* PBXTargetDependency */,
+			);
+			name = "Seven WondersUITests";
+			productName = "Seven WondersUITests";
+			productReference = 7A39A9371D2DCB17001352CF /* Seven WondersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A39A9101D2DCB16001352CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Red Raven Computing Studios";
+				TargetAttributes = {
+					7A39A9171D2DCB16001352CF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7A39A92B1D2DCB17001352CF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7A39A9171D2DCB16001352CF;
+					};
+					7A39A9361D2DCB17001352CF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7A39A9171D2DCB16001352CF;
+					};
+				};
+			};
+			buildConfigurationList = 7A39A9131D2DCB16001352CF /* Build configuration list for PBXProject "Seven Wonders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A39A90F1D2DCB15001352CF;
+			productRefGroup = 7A39A9191D2DCB16001352CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A39A9171D2DCB16001352CF /* Seven Wonders */,
+				7A39A92B1D2DCB17001352CF /* Seven WondersTests */,
+				7A39A9361D2DCB17001352CF /* Seven WondersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A39A9161D2DCB16001352CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39A9261D2DCB16001352CF /* LaunchScreen.storyboard in Resources */,
+				7A39A9231D2DCB16001352CF /* Assets.xcassets in Resources */,
+				7A39A9211D2DCB16001352CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39A92A1D2DCB17001352CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39A9351D2DCB17001352CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A39A9141D2DCB16001352CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39A91E1D2DCB16001352CF /* ViewController.swift in Sources */,
+				7A39A91C1D2DCB16001352CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39A9281D2DCB17001352CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39A9311D2DCB17001352CF /* Seven_WondersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39A9331D2DCB17001352CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39A93C1D2DCB17001352CF /* Seven_WondersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A39A92E1D2DCB17001352CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A39A9171D2DCB16001352CF /* Seven Wonders */;
+			targetProxy = 7A39A92D1D2DCB17001352CF /* PBXContainerItemProxy */;
+		};
+		7A39A9391D2DCB17001352CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A39A9171D2DCB16001352CF /* Seven Wonders */;
+			targetProxy = 7A39A9381D2DCB17001352CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A39A91F1D2DCB16001352CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A39A9201D2DCB16001352CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A39A9241D2DCB16001352CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A39A9251D2DCB16001352CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A39A93E1D2DCB17001352CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A39A93F1D2DCB17001352CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A39A9411D2DCB17001352CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Seven Wonders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Seven-Wonders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A39A9421D2DCB17001352CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Seven Wonders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Seven-Wonders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A39A9441D2DCB17001352CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Seven WondersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Seven-WondersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seven Wonders.app/Seven Wonders";
+			};
+			name = Debug;
+		};
+		7A39A9451D2DCB17001352CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Seven WondersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Seven-WondersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seven Wonders.app/Seven Wonders";
+			};
+			name = Release;
+		};
+		7A39A9471D2DCB17001352CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Seven WondersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Seven-WondersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Seven Wonders";
+			};
+			name = Debug;
+		};
+		7A39A9481D2DCB17001352CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Seven WondersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Seven-WondersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Seven Wonders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A39A9131D2DCB16001352CF /* Build configuration list for PBXProject "Seven Wonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39A93E1D2DCB17001352CF /* Debug */,
+				7A39A93F1D2DCB17001352CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A39A9401D2DCB17001352CF /* Build configuration list for PBXNativeTarget "Seven Wonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39A9411D2DCB17001352CF /* Debug */,
+				7A39A9421D2DCB17001352CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A39A9431D2DCB17001352CF /* Build configuration list for PBXNativeTarget "Seven WondersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39A9441D2DCB17001352CF /* Debug */,
+				7A39A9451D2DCB17001352CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A39A9461D2DCB17001352CF /* Build configuration list for PBXNativeTarget "Seven WondersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39A9471D2DCB17001352CF /* Debug */,
+				7A39A9481D2DCB17001352CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A39A9101D2DCB16001352CF /* Project object */;
+}
