@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //This is used to remove the annoying UIConstraints Warning in the console
+        NSUserDefaults.standardUserDefaults().setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+        
+        //Call the instance once to populate the data so the app can work properly.
+        DataService.instance.getWondersFromApi()
+        
         return true
     }
 
